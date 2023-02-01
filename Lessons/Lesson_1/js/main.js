@@ -36,3 +36,10 @@ let str_1 = 'hello';
         console.log(typeof a);
         console.log(typeof b);
         console.log(typeof c);
+
+    // Additional Part
+
+    let myName = prompt('Enter your first name');
+        mySoname = prompt('Enter your last name');
+        myAge = prompt('Enter your age');
+        document.write(myName + ' ' + mySoname + ' ' + myAge);
