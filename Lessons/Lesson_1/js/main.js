@@ -23,7 +23,7 @@ let str_1 = 'hello';
     let firstName = 'Artem';
         middleName = 'Ivanovych';
         lastName = 'Ozirnyi';
-        person = firstName + middleName + lastName;
+        person = firstName + ' ' + middleName + ' ' + lastName;
 
         console.log(person);
 
