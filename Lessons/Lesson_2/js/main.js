@@ -72,16 +72,16 @@ let x = +prompt('Введіть довільне число: ');
 
 let minutes = +prompt('Введіть хвилини: ');
     if(minutes <= 59){
-        if(minutes <= 15){
+        if(minutes > 0 && minutes <= 15){
             console.log('Перша частина години: ' + minutes + ' хв.');
         }
-        else if(minutes <= 30){
+        else if(minutes > 15 && minutes <= 30){
             console.log('Друга частина години: ' + minutes + ' хв.');
         }
-        else if(minutes <= 45){
+        else if(minutes > 30 && minutes <= 45){
             console.log('Третя частина години: ' + minutes + ' хв.');
         }
-        else if(minutes > 45){
+        else if(minutes > 45 && minutes <= 59){
             console.log('Четверта частина години: ' + minutes + ' хв.');
         }
     }else {
@@ -96,14 +96,12 @@ let minutes = +prompt('Введіть хвилини: ');
 
 let day = +prompt('Введіть дату від 1 до 31: ');
     if(day <= 31){
-        if(day <= 10){
-            console.log('Перша декада: ' + day);
-        }
-        else if(day <= 20){
-            console.log('Друга декада: ' + day);
-        }
-        else if(day > 20){
-            console.log('Третя декада: ' + day);
+        if(day > 1 && day <=  10){
+            console.log('Перша декада місяця: ' + day);
+        }else if(day > 10 && day <= 20){
+            console.log('Друга декада місяця: ' + day);
+        }else if(day > 20 && day < 31){
+            console.log('Третя декада місяця: ' + day);
         }
     }else {
         console.log('Ви перевищили діапазон дат від 1 до 31');
@@ -155,7 +153,7 @@ let a = 10;
     b = 10;
     if(a > b){
         console.log('Число a > b: ' + a);
-    }else if(a == b){
+    }else if(a === b){
         console.log(a + ' = ' + b);
     }else{
         console.log('Число b > a: ' + b);
@@ -167,6 +165,9 @@ let a = 10;
     якщо значення змінної х являється false (хибноподібні, тобто приводиться до false)
 */
 
+let y = undefined;
+    y = y || 'hello';
+    console.log(y);
 
 /*
     З файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray.
