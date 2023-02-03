@@ -71,7 +71,7 @@ let x = +prompt('Введіть довільне число: ');
 */
 
 let minutes = +prompt('Введіть хвилини: ');
-    if(minutes <= 59){
+    if(minutes > 0 && minutes <= 59){
         if(minutes > 0 && minutes <= 15){
             console.log('Перша частина години: ' + minutes + ' хв.');
         }
@@ -95,7 +95,7 @@ let minutes = +prompt('Введіть хвилини: ');
 */
 
 let day = +prompt('Введіть дату від 1 до 31: ');
-    if(day <= 31){
+    if(day > 1 && day <= 31){
         if(day > 1 && day <=  10){
             console.log('Перша декада місяця: ' + day);
         }else if(day > 10 && day <= 20){

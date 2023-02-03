@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb2e9f09-7a0e-417a-8390-6003e8cf5a4d" name="Changes" comment="Home Task JS - Lesson 2&#10;Full Complete">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript_Lessons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/Lesson_1/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson_1/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/Lesson_2/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson_2/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5a882a44-ef73-435a-a114-3e27f30d480a" />
+        <option name="url" value="https://github.com/Ar4ik88/JavaScript_Lessons.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2L6OZQgc1a4nyqgbGPXDiOputQU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb2e9f09-7a0e-417a-8390-6003e8cf5a4d" name="Changes" comment="" />
+      <created>1675188125524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675188125524</updated>
+      <workItem from="1675188126715" duration="190000" />
+      <workItem from="1675270637215" duration="2010000" />
+      <workItem from="1675272929488" duration="913000" />
+      <workItem from="1675274114035" duration="29000" />
+      <workItem from="1675400611208" duration="178000" />
+      <workItem from="1675445170389" duration="41000" />
+      <workItem from="1675447135426" duration="1261000" />
+      <workItem from="1675448457818" duration="39000" />
+      <workItem from="1675448518615" duration="50000" />
+      <workItem from="1675449652438" duration="59000" />
+    </task>
+    <task id="LOCAL-00001" summary="Test">
+      <created>1675271585826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675271585826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test">
+      <created>1675271630560</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675271630560</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Home Task JS - Lesson 1">
+      <created>1675272855331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675272855331</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Home Task JS - Lesson 1">
+      <created>1675272963746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675272963746</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Home Task JS - Lesson 1&#10;Add last task">
+      <created>1675273650580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675273650580</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Home Task JS - Lesson 2&#10;Full Complete">
+      <created>1675448350452</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675448350452</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test" />
+    <MESSAGE value="Home Task JS - Lesson 1" />
+    <MESSAGE value="Home Task JS - Lesson 1&#10;Add last task" />
+    <MESSAGE value="Home Task JS - Lesson 2&#10;Full Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Task JS - Lesson 2&#10;Full Complete" />
+  </component>
+</project>
