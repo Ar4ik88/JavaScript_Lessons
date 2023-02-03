@@ -103,7 +103,7 @@ let day = +prompt('Введіть дату від 1 до 31: ');
         }else if(day > 20 && day < 31){
             console.log('Третя декада місяця: ' + day);
         }
-    }else {
+    }else{
         console.log('Ви перевищили діапазон дат від 1 до 31');
     }
 
