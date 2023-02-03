@@ -88,6 +88,7 @@ let minutes = +prompt('Введіть хвилини: ');
         console.log('Ви перевищили діапазон 0-59 хв');
     }
 
+
 /*
     У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число
     (у першу, другу чи третю).
@@ -165,3 +166,25 @@ let a = 10;
     Напишіть код який, за допомоги  оператора || буде присвоювати змінній х значення "default"
     якщо значення змінної х являється false (хибноподібні, тобто приводиться до false)
 */
+
+
+/*
+    З файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray.
+    За допомоги іф перевірити кожен його елемент на тривалість навчання.
+    У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
+*/
+
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+
+    for(let listDuration of coursesAndDurationArray){
+        if(listDuration['monthDuration'] > 5){
+            console.log(listDuration['title'] + ' ' + listDuration['monthDuration'] + ' місяців' + ' Супер');
+        }
+    }
