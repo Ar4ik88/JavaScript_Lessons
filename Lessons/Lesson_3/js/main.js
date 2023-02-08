@@ -120,12 +120,12 @@
         				},
     ];
 
-    document.write(`<div class="product-card">`);
         for(product of products){
-            document.write(`<h3 class="product-title">${product.title}. Price - ${product.price} UAH</h3>`);
-            document.write(`<img src="${product.image}" alt="" class="product-image">`);
+            document.write(`<div class="product-card">`);
+                document.write(`<h3 class="product-title">${product.title}. Price - ${product.price} UAH</h3>`);
+                document.write(`<img src="${product.image}" alt="" class="product-image">`);
+            document.write(`</div>`);
         }
-    document.write(`</div>`);
 
 /*
     є масив

@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb2e9f09-7a0e-417a-8390-6003e8cf5a4d" name="Changes" comment="Home Task JS - Lesson 2&#10;Full Complete">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_Lessons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Lesson_1/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson_1/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Lesson_2/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson_2/js/main.js" afterDir="false" />
+    <list default="true" id="fb2e9f09-7a0e-417a-8390-6003e8cf5a4d" name="Changes" comment="Home Task JS - Lesson 3&#10;Complete">
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson_3/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/Lesson_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson_3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/Lesson_3/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson_3/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +60,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ar4ik/IdeaProjects/JavaScript_Lessons/Lessons/Lesson_3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -73,6 +69,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ar4ik\IdeaProjects\JavaScript_Lessons\Lessons\Lesson_3" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675448350452</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Home Task JS - Lesson 3&#10;Complete">
+      <created>1675854902321</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675854902321</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +153,7 @@
     <MESSAGE value="Home Task JS - Lesson 1" />
     <MESSAGE value="Home Task JS - Lesson 1&#10;Add last task" />
     <MESSAGE value="Home Task JS - Lesson 2&#10;Full Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Task JS - Lesson 2&#10;Full Complete" />
+    <MESSAGE value="Home Task JS - Lesson 3&#10;Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Task JS - Lesson 3&#10;Complete" />
   </component>
 </project>
