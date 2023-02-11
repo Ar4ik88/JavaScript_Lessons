@@ -88,7 +88,7 @@
  * Створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
  */
 
-    function arrayItemsBuildList(...arr_){
+    function arrayItemsBuildList(arr_){
         document.write(`<ul>`);
             for(arrItem of arr_){
                 document.write(`<li>${arrItem}</li>`);
