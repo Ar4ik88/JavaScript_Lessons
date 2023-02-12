@@ -130,10 +130,10 @@
                 min = arrVal[0];
             }
         }
-        console.log(min);
+        return min;
     }
 
-    minValueOfArray(5,6,-19,21);
+    console.log(minValueOfArray(5,6,-19,21));
 
 /**
  * Створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його.
