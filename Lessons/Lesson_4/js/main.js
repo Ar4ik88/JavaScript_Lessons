@@ -4,7 +4,7 @@
 
 function squareRectangle(a,b){
     // S = a * b
-    return (a*b);
+    return a*b;
 }
 
 console.log('Площа прямокутника S = a * b -> ' + squareRectangle(5,8));
@@ -14,8 +14,7 @@ console.log('Площа прямокутника S = a * b -> ' + squareRectangl
  */
 
 function squareCircle(circle_radius){
-    const p = 3.14;
-    return (p * circle_radius);
+    return (3.14 * circle_radius);
 }
 
 console.log('Площа кола з радіусом S = π * r^2 -> ' + squareCircle(2));
@@ -25,8 +24,7 @@ console.log('Площа кола з радіусом S = π * r^2 -> ' + squareC
  */
 
 function squareCylinder(h,r){
-    const p = 3.14;
-    return (2 * p * r * (h + r));
+    return (2 * 3.14 * r * (h + r));
 }
 
 console.log('Площа циліндра S = 2πr(h+r) -> ' + squareCylinder(2,1));
@@ -123,11 +121,10 @@ getArrayObjects(j);
  */
 
 function minValueOfArray(...arrVal){
-    let min = 0;
-    for(let i = 0; i < arrVal.length; i++){
-        if(arrVal[i] < arrVal[0]){
-            arrVal[0] = arrVal[i];
-            min = arrVal[0];
+    let min = arrVal[0];
+    for(const itemArr of arrVal){
+        if(itemArr < min){
+            min = itemArr;
         }
     }
     return min;
