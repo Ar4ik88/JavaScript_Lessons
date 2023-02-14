@@ -184,3 +184,32 @@
                  document.write(`<h4>${user.name} ${user.age}</h4>`);
              }
      }
+
+/*
+    document.write(`<h3>Альтернативний варіант - старші 30 років</h3>`);
+     for(user of users){
+        for(userKey in user){
+            if(user.age > 30){
+                document.write(`<h4>${userKey} : ${user[userKey]}</h4>`);
+            }
+        }
+     }
+
+     document.write(`<h3>Альтернативний варіант - true</h3>`);
+     for(user of users){
+             for(userKey in user){
+                 if(user.status === true){
+                     document.write(`<h4>${userKey} : ${user[userKey]}</h4>`);
+                 }
+             }
+     }
+
+     document.write(`<h3>Альтернативний варіант - false</h3>`);
+     for(user of users){
+             for(userKey in user){
+                 if(user.status === false){
+                     document.write(`<h4>${userKey} : ${user[userKey]}</h4>`);
+                 }
+             }
+     }
+*/

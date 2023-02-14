@@ -153,17 +153,16 @@ console.log(sumArrayOfNumbers(1,27,-3));
  */
 
 function replaceItemOfArray(arr,index1,index2){
-    let tempItem = arr[index1];
+    let idx_1 = arr[index1];
+    let idx_2 = arr[index2];
 
-    arr.splice(index1, index2);
-    arr.splice(index2, index1, tempItem);
+    arr[index1] = arr[index2];
+    arr[index2] = idx_1;
 
-    for(itemArr of arr){
-        console.log(itemArr);
-    }
+    return arr;
 }
 
-replaceItemOfArray([11,22,33,44],0,1);
+console.log(replaceItemOfArray([11,22,33,44],0,1));
 
 /**
  * Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
