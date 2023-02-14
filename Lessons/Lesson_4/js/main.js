@@ -156,8 +156,8 @@ function replaceItemOfArray(arr,index1,index2){
     let idx_1 = arr[index1];
     let idx_2 = arr[index2];
 
-    arr[index1] = arr[index2];
-    arr[index2] = idx_1;
+        arr[index1] = arr[index2];
+        arr[index2] = idx_1;
 
     return arr;
 }
