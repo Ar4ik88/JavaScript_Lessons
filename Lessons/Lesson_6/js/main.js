@@ -26,8 +26,8 @@
  *  Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів
  */
 
-    let str = ' dirty string   ';
-    console.log(str.replace(/ /g,''));
+    let str_clear = ' dirty string   ';
+    console.log(str_clear.replace(/ /g,''));
 
 /**
  *  Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
@@ -35,4 +35,9 @@
         let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
  */
 
-    let str = 'Ревуть воли як ясла повні';
+    function stringToArray(str) {
+        return str.split(" ");
+    }
+
+    let str_exp = 'Ревуть воли як ясла повні';
+    console.log(stringToArray(str_exp));
