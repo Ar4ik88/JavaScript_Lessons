@@ -22,3 +22,17 @@
     console.log(('LOREM IPSUM').toLocaleLowerCase());
     console.log(('JAVASCRIPT IS COOL').toLocaleLowerCase());
 
+/**
+ *  Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів
+ */
+
+    let str = ' dirty string   ';
+    console.log(str.replace(/ /g,''));
+
+/**
+ *  Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
+        let str = 'Ревуть воли як ясла повні';
+        let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
+ */
+
+    let str = 'Ревуть воли як ясла повні';
