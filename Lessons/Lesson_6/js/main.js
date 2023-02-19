@@ -331,3 +331,14 @@
     }
 
     findDocker();
+
+    function findItemsOfArray(arr,search_phrase){
+        console.log(`Course(s) with ${search_phrase}`);
+        for (let item of arr) {
+            if(item.modules.includes(search_phrase)){
+                console.log(item);
+            }
+        }
+    }
+
+    findItemsOfArray(coursesArray,'js');
