@@ -309,5 +309,25 @@
             modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
         }
     ];
+    function findSass(){
+        console.log('Course(s) with sass');
+        for (let course of coursesArray) {
+            if(course.modules.includes('sass')){
+                console.log(course);
+            }
+        }
+    }
+
+    findSass();
 
 
+    function findDocker(){
+        console.log('Course(s) with docker');
+            for (let course of coursesArray) {
+                if(course.modules.includes('docker')){
+                    console.log(course);
+                }
+            }
+    }
+
+    findDocker();
