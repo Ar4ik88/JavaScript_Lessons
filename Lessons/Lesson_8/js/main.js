@@ -237,9 +237,9 @@
 
     let foundCinderella;
 
-    let findCinderella = arrayOfCinderella.find(Cinderella => {
-        if(Cinderella.foot_size === prince_.shoe_found){
-            foundCinderella = Cinderella;
+    let findCinderella = arrayOfCinderella.find(cinderella => {
+        if(cinderella.foot_size === prince_.shoe_found){
+            foundCinderella = cinderella;
             return foundCinderella;
         }
     })
