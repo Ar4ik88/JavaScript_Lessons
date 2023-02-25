@@ -129,7 +129,7 @@
             return `Їдемо зі швидкістю ${this.max_speed} на годину`;
         };
         this.info = () => {
-            return JSON.stringify(this);
+            return JSON.stringify(this).replace(/:/g, " - ");
         };
         this.increaseMaxSpeed = (newSpeed) => {
             return this.max_speed = newSpeed;
@@ -170,7 +170,7 @@
                 return `Їдемо зі швидкістю ${this.Max_speed} на годину`;
             };
             this.info = () => {
-                return JSON.stringify(this);
+                return JSON.stringify(this).replace(/:/g, " - ");
             };
             this.increaseMaxSpeed = (newSpeed) => {
                 return this.Max_speed = newSpeed;
