@@ -294,6 +294,7 @@
         buttonHide = document.createElement('button');
         buttonHide.setAttribute('class','action-hidden');
         buttonHide.setAttribute('type','submit');
+        buttonHide.innerText = 'Send';
 
         document.body.append(shadowBlock);
         document.body.append(buttonHide);
@@ -307,3 +308,27 @@
  *  Створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію
  *  з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
  */
+
+    let formAge = document.createElement('form');
+        formAge.setAttribute('name','formUserAge');
+
+        inputAgeHuman = document.createElement('input');
+        inputAgeHuman.setAttribute('name','age-human');
+
+        buttonSubmit = document.createElement('button');
+        buttonSubmit.innerText = 'Check';
+
+        document.body.appendChild(formAge);
+        formAge.append(inputAgeHuman,buttonSubmit);
+
+        formAge.onsubmit = function (e){
+            e.preventDefault();
+            let userAge = document.forms['formUserAge']['age-human'].value;
+            if(userAge < 18){
+                console.log(`Вам менше 18 років! Ваш вік - ${userAge}`);
+            }else{
+                console.log(`Ви повнолітній: Ваш вік - ${userAge}`);
+            }
+        }
+
+
