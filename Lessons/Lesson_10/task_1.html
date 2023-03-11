@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task - 1, Lesson 10</title>
+</head>
+<body>
+
+<!--
+  Створити форму з трьома полями для name,surname,age та кнопкою. При натисканні на кнопку зчитати данні з полів,
+  та вивести об'єкт в документ. Іншими словами : заповниои форму, натиснули кнопку, під формою з'явився блок
+  з вашим об'єктом
+-->
+
+<form name="customUser">
+    <input type="text" name="userName" placeholder="Введіть ваше ім'я">
+    <input type="text" name="userSurname" placeholder="Введіть ваше прізвище">
+    <input type="number" name="age" placeholder="Введіть ваш вік">
+    <button>Надіслати</button>
+</form>
+
+<script>
+
+    let myForm = document.forms.customUser;
+        wrapper = document.createElement('div');
+        infoNameSurname = document.createElement('h2');
+        userAge = document.createElement('span');
+
+        myForm.onsubmit = function(e) {
+            e.preventDefault();
+            infoNameSurname.innerText = `${myForm['userName'].value} ${myForm['userSurname'].value}`;
+            userAge.innerText = `${myForm['age'].value} років`;
+
+            wrapper.append(infoNameSurname,userAge);
+            document.body.append(wrapper);
+        };
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task - 2, Lesson 10</title>
+</head>
+<body>
+
+<!--
+    Є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки
+    буде додавати до неї +1
+-->
+
+<h2>Counter <span id="count"></span></h2>
+<script>
+    let count = localStorage.getItem('count') || 0;
+        item = document.getElementById('count');
+
+    newCount = (+count + 1);
+    item.append(newCount);
+    localStorage.setItem('count', newCount);
+
+    //localStorage.clear();
+</script>
+
+</body>
+</html>
