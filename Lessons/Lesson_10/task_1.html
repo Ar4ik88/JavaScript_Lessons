@@ -28,8 +28,8 @@
 
         myForm.onsubmit = function(e) {
             e.preventDefault();
-            infoNameSurname.innerText = `${myForm['userName'].value} ${myForm['userSurname'].value}`;
-            userAge.innerText = `${myForm['age'].value} років`;
+            infoNameSurname.innerText = `${this['userName'].value} ${this['userSurname'].value}`;
+            userAge.innerText = `${this['age'].value} років`;
 
             wrapper.append(infoNameSurname,userAge);
             document.body.append(wrapper);
