@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Details</title>
+</head>
+<body>
+
+<script>
+
+  let url = new URL(location.href);
+  let dataInfo = +url.searchParams.get('id');
+  let divEl = document.createElement('div');
+
+  fetch('http://jsonplaceholder.typicode.com/users')
+      .then(value => value.json())
+      .then(value => {
+          for (const user of value) {
+              if(user.id === dataInfo){
+                divEl.innerText = JSON.stringify(user);
+              }
+          }
+
+          document.body.append(divEl);
+      })
+
+</script>
+
+</body>
+</html>
