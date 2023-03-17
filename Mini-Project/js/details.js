@@ -10,6 +10,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
                 for (const userElement of userVal) {
                     if(userElement.id === dataInfo){
+                            let addr = userElement.address;
                             divDetail.innerHTML =
                                 `
                                     <strong>id: ${userElement.id}</strong>
@@ -17,10 +18,10 @@ fetch('https://jsonplaceholder.typicode.com/users')
                                     <h3>Username: ${userElement.username}</h3>
                                     <h4>Email: ${userElement.email}</h4>
                                     <ul>Adress: 
-                                        <li>${userElement.address.street}</li>
-                                        <li>${userElement.address.suite}</li>
-                                        <li>${userElement.address.city}</li>
-                                        <li>${userElement.address.zipcode}</li>
+                                        <li>${addr.street}</li>
+                                        <li>${addr.suite}</li>
+                                        <li>${addr.city}</li>
+                                        <li>${addr.zipcode}</li>
                                     </ul>
                                 `;
                         }
