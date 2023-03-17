@@ -40,7 +40,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
                             postButton.innerHTML = 'Post of current user';
 
                                 postButton.onclick = (e) => {
-                                    e.preventDefault();
+
                                     fetch(`https://jsonplaceholder.typicode.com/users/${userElement.id}/posts`)
                                         .then(post => post.json())
                                         .then(singlePost => {
@@ -63,6 +63,10 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
                                                 wrapPost.appendChild(listPost);
                                                 divDetail.appendChild(wrapPost);
+                                            }
+
+                                            if(ul.getElementsByTagName('li') !== null){
+                                                e.preventDefault();
                                             }
 
                                         })
