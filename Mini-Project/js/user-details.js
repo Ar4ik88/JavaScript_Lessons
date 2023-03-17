@@ -46,7 +46,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
                                         .then(singlePost => {
                                             let wrapPost = document.createElement('ul');
                                                 wrapPost.classList.add('posts-list');
-                                                wrapPost.innerHTML = `<h3>My title posts</h3>`;
+                                                //wrapPost.innerHTML = `<h3>My title posts</h3>`;
 
                                             for (const item of singlePost) {
                                                 let listPost = document.createElement('li');
