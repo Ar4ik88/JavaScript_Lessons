@@ -34,13 +34,15 @@ let dataUrl = +url.searchParams.get('id');
                     let listComments = document.createElement('div');
                         listComments.classList.add('item-comment');
                     let postComments = document.getElementById('comments');
+
                     listComments.innerHTML =
                         `
-                            <p>postId: ${comment.postId}</p>
-                            <span>id: ${comment.id}</span>
+                            <span id="post-id">postId: ${comment.postId}</span>
+                            <span id="comment-id">id: ${comment.id}</span>
                             <h4>name: ${comment.name}</h4>
-                            <p>body: ${comment.body}</p>
+                            <p class="review">body: ${comment.body}</p>
                         `;
+
                     postComments.append(listComments);
                 }
             }

@@ -5,7 +5,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
         return userVal.json()
     })
     .then(userVal => {
-
             let divDetail = document.createElement('div');
                 divDetail.classList.add('detail-info');
 
@@ -13,6 +12,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
                     if(userElement.id === dataInfo){
                             let addr = userElement.address;
                             let postButton = document.createElement('button');
+                                postButton.setAttribute('id','btn-post')
 
                             divDetail.innerHTML =
                                 `
@@ -39,14 +39,16 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
                             postButton.innerHTML = 'Post of current user';
 
-                                postButton.onclick = (e) => {
-                                    e.preventDefault();
+                                postButton.onclick = () => {
                                     fetch(`https://jsonplaceholder.typicode.com/users/${userElement.id}/posts`)
                                         .then(post => post.json())
                                         .then(singlePost => {
+                                            let containerPost = document.createElement('div');
+                                                containerPost.classList.add('container-posts');
                                             let wrapPost = document.createElement('ul');
                                                 wrapPost.classList.add('posts-list');
-                                                //wrapPost.innerHTML = `<h3>My title posts</h3>`;
+
+                                                containerPost.innerHTML = `<h3>My list posts</h3>`;
 
                                             for (const item of singlePost) {
                                                 let listPost = document.createElement('li');
@@ -58,16 +60,17 @@ fetch('https://jsonplaceholder.typicode.com/users')
                                                     `post-details.html?id=${item.id}`
                                                 );
 
-                                                listPost.innerHTML = `${item.title}`;
+                                                listPost.innerHTML = `<p>${item.title}</p>`;
                                                 listPost.appendChild(morePost);
 
                                                 wrapPost.appendChild(listPost);
-                                                divDetail.appendChild(wrapPost);
+                                                containerPost.appendChild(wrapPost);
+                                                divDetail.appendChild(containerPost);
                                             }
 
                                         })
+                                    document.querySelector('#btn-post').disabled = true;
                                 }
-
                             divDetail.append(postButton);
                         }
                     }

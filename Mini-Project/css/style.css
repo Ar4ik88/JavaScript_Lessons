@@ -1,5 +1,9 @@
 *{padding:0; margin:0}
 
+body,html{
+    font-family: "Segoe UI Symbol";
+}
+
 .block-users {
     display: flex;
     flex-wrap: wrap;
@@ -25,10 +29,40 @@
 .detail-info {
     width: 720px;
     margin: 2em auto;
+    text-align: center;
+    background: azure;
+    box-sizing: border-box;
+    padding: 1em 2em;
+}
+
+.detail-info > ul {
+    margin: 1em 0;
+}
+
+.detail-info > ul > li {
+    margin: 0.6em 2em;
+    list-style:none;
 }
 
 .detail-info > button {
+    width: 50%;
+    cursor: pointer;
     margin: 4em 0 4em;
+    padding: 0.3em 1em;
+}
+
+.detail-info > button#btn-post[disabled]{
+    cursor: default;
+    background: palevioletred;
+}
+
+.detail-info > h2,h3 {
+    margin: 0.5em 0;
+}
+
+.container-posts > h3 {
+    text-align: center;
+    margin-bottom: 1.5em;
 }
 
 ul.posts-list {
@@ -38,12 +72,20 @@ ul.posts-list {
 }
 
 ul.posts-list > li {
+    display: flex;
+    flex-wrap: wrap;
     flex: 20%;
     padding: 1em;
     box-sizing: border-box;
+    align-items: end;
+}
+
+ul.posts-list > li > p::first-letter{
+    text-transform: uppercase;
 }
 
 ul.posts-list > li > a {
+    width: 100%;
     display: block;
     text-decoration: none;
     background: lightskyblue;
@@ -51,4 +93,53 @@ ul.posts-list > li > a {
     color: azure;
     text-align: center;
     margin-top: 1em;
+    transition-delay: 200ms;
+}
+
+ul.posts-list > li > a:hover {
+    background: lightcoral;
+}
+
+.post {
+    margin: 2em 1em auto;
+}
+
+.post > #main-info-post {
+    margin-bottom: 3em;
+    padding: 1.5em 1.5em;
+    background: lavender;
+}
+
+.post > #main-info-post > h3 {
+    margin: 1em 0em;
+}
+
+.post > #main-info-post > h3::first-letter {
+    text-transform: uppercase;
+}
+
+.post #comments > h3 {
+    margin-bottom: 1em;
+}
+
+.post #comments {
+    display: flex;
+    flex-wrap: wrap;
+    background: aliceblue;
+    box-sizing: border-box;
+    padding: 1.5em 1.5em;
+}
+
+.post #comments > div {
+    flex: 25%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+#comments > .item-comment > p.review {
+    text-align: justify;
+}
+
+#comments > .item-comment > h4 {
+    margin: 1em 0;
 }
