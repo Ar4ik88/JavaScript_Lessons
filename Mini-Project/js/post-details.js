@@ -9,6 +9,7 @@ let dataUrl = +url.searchParams.get('id');
                         .then(posts => posts.json())
                         .then(posts => {
                             let infoPost = document.getElementById('main-info-post');
+
                             for (const post of posts) {
                                 if(post.id === dataUrl){
                                     infoPost.innerHTML =
@@ -19,6 +20,7 @@ let dataUrl = +url.searchParams.get('id');
                                             <p>body: ${post.body}</p>
                                         `;
                                 }
+                                document.title = `Post - ${post.title}`;
                             }
                         })
             }

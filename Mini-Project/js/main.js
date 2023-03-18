@@ -3,6 +3,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
     .then(value => {
         let wrapUsers = document.createElement('div');
             wrapUsers.classList.add('block-users');
+
         for (const user of value) {
             let divEl = document.createElement('div');
             let hrefEl = document.createElement('a');

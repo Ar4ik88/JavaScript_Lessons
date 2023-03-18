@@ -12,7 +12,9 @@ fetch('https://jsonplaceholder.typicode.com/users')
                     if(userElement.id === dataInfo){
                             let addr = userElement.address;
                             let postButton = document.createElement('button');
-                                postButton.setAttribute('id','btn-post')
+                                postButton.setAttribute('id','btn-post');
+
+                            document.title = `${userElement.name}`;
 
                             divDetail.innerHTML =
                                 `
@@ -77,3 +79,4 @@ fetch('https://jsonplaceholder.typicode.com/users')
                 document.body.append(divDetail);
 
     })
+
