@@ -5,7 +5,6 @@ let dataUrl = +url.searchParams.get('id');
         .then(value => value.json())
         .then(value => {
             for (const item of value) {
-                if(item.id > 0){
                     fetch(`https://jsonplaceholder.typicode.com/users/${item.id}/posts`)
                         .then(posts => posts.json())
                         .then(posts => {
@@ -22,7 +21,6 @@ let dataUrl = +url.searchParams.get('id');
                                 }
                             }
                         })
-                }
             }
         })
 

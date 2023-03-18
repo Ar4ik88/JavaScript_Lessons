@@ -15,7 +15,7 @@ body,html{
 }
 
 .block-users > div {
-    flex: 50%;
+    flex: 50% 0;
     margin-bottom: 1em;
 }
 
@@ -31,7 +31,7 @@ body,html{
 }
 
 .detail-info {
-    width: 720px;
+    max-width: 720px;
     margin: 2em auto;
     text-align: center;
     background: azure;
@@ -78,8 +78,8 @@ ul.posts-list {
 ul.posts-list > li {
     display: flex;
     flex-wrap: wrap;
-    flex: 20%;
-    padding: 1em;
+    flex: 20% 0;
+    padding: 0.75em;
     box-sizing: border-box;
     align-items: end;
 }
@@ -135,7 +135,7 @@ ul.posts-list > li > a:hover {
 }
 
 .post #comments > div {
-    flex: 25%;
+    flex: 25% 0;
     padding: 1em;
     box-sizing: border-box;
 }

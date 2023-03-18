@@ -1,0 +1,12 @@
+
+@media (300px <= width <= 600px) {
+    .block-users > div, ul.posts-list > li, .post #comments > div {
+        flex: 100% 0;
+    }
+}
+
+@media (601px <= width <= 800px) {
+    .block-users > div, ul.posts-list > li, .post #comments > div {
+        flex: 50% 0;
+    }
+}
