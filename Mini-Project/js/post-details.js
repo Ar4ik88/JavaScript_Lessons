@@ -12,6 +12,7 @@ let dataUrl = +url.searchParams.get('id');
 
                             for (const post of posts) {
                                 if(post.id === dataUrl){
+                                    document.title = `Post - ${post.title}`;
                                     infoPost.innerHTML =
                                         `
                                             <span>userId: ${post.userId}</span>
@@ -20,7 +21,6 @@ let dataUrl = +url.searchParams.get('id');
                                             <p>body: ${post.body}</p>
                                         `;
                                 }
-                                document.title = `Post - ${post.title}`;
                             }
                         })
             }

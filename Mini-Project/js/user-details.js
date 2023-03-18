@@ -15,7 +15,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
                                 postButton.setAttribute('id','btn-post');
 
                             document.title = `${userElement.name}`;
-
                             divDetail.innerHTML =
                                 `
                                     <strong>id: ${userElement.id}</strong>
