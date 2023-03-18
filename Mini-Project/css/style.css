@@ -5,9 +5,13 @@ body,html{
 }
 
 .block-users {
+    max-width: 720px;
+    margin: 3em auto;
     display: flex;
     flex-wrap: wrap;
-    margin: 1em 1em auto;
+    background: aliceblue;
+    box-sizing: border-box;
+    padding: 1em 2em;
 }
 
 .block-users > div {
