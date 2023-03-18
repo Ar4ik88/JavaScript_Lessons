@@ -8,7 +8,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
             let hrefEl = document.createElement('a');
 
             divEl.innerHTML = `<p>${user.id}. ${user.name}</p>`;
-            hrefEl.setAttribute('href', 'user-details.html?id=' + JSON.stringify(user.id));
+            hrefEl.setAttribute('href', 'user-details.html?id=' + user.id);
             hrefEl.innerHTML = 'More details';
 
             divEl.append(hrefEl);
